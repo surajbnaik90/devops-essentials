@@ -4,7 +4,7 @@
 print("Please input a number between 1 and 20 ")
 number = int(input())
 
-if (number<1 or number>20):
+if (number<1 or number>20): # or can also write it as: if(1< number >20):
 	print("Please enter a number between 1 and 20")
 
 number = int(input())
