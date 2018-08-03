@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>If-Else\ifelse2.py</StartupFile>
+    <StartupFile>For\for1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="For\for1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="If-Else\ifelse.py">
       <SubType>Code</SubType>
     </Compile>
@@ -31,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="If-Else\" />
+    <Folder Include="For\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
