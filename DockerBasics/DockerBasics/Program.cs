@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DotnetCoreConsole
+namespace DockerBasics
 {
     class Program
     {

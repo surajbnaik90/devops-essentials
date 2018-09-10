@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  dockerbasics:
+    image: dockerbasics:dev
+    build:
+      target: base
+    environment:
+      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages
+    volumes:
+      - C:\surajbnaik90\DockerBasics\DockerBasics:/app
+      - C:\Users\v-sunaik\vsdbg\vs2017u5:/remote_debugger:ro
+      - C:\Users\v-sunaik\.nuget\packages\:/root/.nuget/packages:ro
+      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  bin/Release/netcoreapp2.0/DockerBasics.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/bash -c \"if PID=$$(pidof -x dotnet); then kill $$PID; fi\""
