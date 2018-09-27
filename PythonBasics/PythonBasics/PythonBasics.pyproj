@@ -21,7 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Exercises\exercise1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\exercise2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="For\for1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="For\for2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="For\for3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="For\for4.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="If-Else\ifelse.py">
@@ -35,6 +50,7 @@
   <ItemGroup>
     <Folder Include="If-Else\" />
     <Folder Include="For\" />
+    <Folder Include="Exercises\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
