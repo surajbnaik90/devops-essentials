@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lists\lists1.py</StartupFile>
+    <StartupFile>Iterators\iterator1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenges\challenge2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\challenge3.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Exercises\exercise1.py">
@@ -57,7 +60,13 @@
     <Compile Include="If-Else\ifelse2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Iterators\iterator1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Lists\lists1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lists\lists2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonBasics.py" />
@@ -69,6 +78,7 @@
     <Folder Include="Assignments\" />
     <Folder Include="Challenges\" />
     <Folder Include="Lists\" />
+    <Folder Include="Iterators\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
