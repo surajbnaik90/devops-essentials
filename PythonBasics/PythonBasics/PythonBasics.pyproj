@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>For\for1.py</StartupFile>
+    <StartupFile>Lists\lists1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assignments\assignmentoperators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\challenge1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\challenge2.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Exercises\exercise1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Exercises\exercise2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exercises\exercise3.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="For\for1.py">
@@ -45,12 +57,18 @@
     <Compile Include="If-Else\ifelse2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Lists\lists1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonBasics.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="If-Else\" />
     <Folder Include="For\" />
     <Folder Include="Exercises\" />
+    <Folder Include="Assignments\" />
+    <Folder Include="Challenges\" />
+    <Folder Include="Lists\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
