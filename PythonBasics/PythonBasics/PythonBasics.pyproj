@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Iterators\iterator1.py</StartupFile>
+    <StartupFile>Challenges\Challenge4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenges\challenge3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\Challenge4.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Exercises\exercise1.py">
@@ -70,6 +73,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonBasics.py" />
+    <Compile Include="Ranges\range1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ranges\range2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="If-Else\" />
@@ -79,6 +88,7 @@
     <Folder Include="Challenges\" />
     <Folder Include="Lists\" />
     <Folder Include="Iterators\" />
+    <Folder Include="Ranges\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
