@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Challenges\Challenge4.py</StartupFile>
+    <StartupFile>Tuples\tuple2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -79,6 +79,12 @@
     <Compile Include="Ranges\range2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tuples\tuple1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tuples\tuple2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="If-Else\" />
@@ -88,6 +94,7 @@
     <Folder Include="Challenges\" />
     <Folder Include="Lists\" />
     <Folder Include="Iterators\" />
+    <Folder Include="Tuples\" />
     <Folder Include="Ranges\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
