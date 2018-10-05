@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tuples\tuple2.py</StartupFile>
+    <StartupFile>Binary\binary1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assignments\assignmentoperators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Binary\binary1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenges\challenge1.py">
@@ -94,6 +97,7 @@
     <Folder Include="Challenges\" />
     <Folder Include="Lists\" />
     <Folder Include="Iterators\" />
+    <Folder Include="Binary\" />
     <Folder Include="Tuples\" />
     <Folder Include="Ranges\" />
   </ItemGroup>
