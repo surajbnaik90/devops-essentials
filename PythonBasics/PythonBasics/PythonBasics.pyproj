@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Binary\binary1.py</StartupFile>
+    <StartupFile>Dictionaries\dictionary3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenges\Challenge4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionaries\dictionary1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionaries\dictionary2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionaries\dictionary3.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Exercises\exercise1.py">
@@ -98,6 +107,7 @@
     <Folder Include="Lists\" />
     <Folder Include="Iterators\" />
     <Folder Include="Binary\" />
+    <Folder Include="Dictionaries\" />
     <Folder Include="Tuples\" />
     <Folder Include="Ranges\" />
   </ItemGroup>
