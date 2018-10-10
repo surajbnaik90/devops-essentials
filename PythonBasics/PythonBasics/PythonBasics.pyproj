@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Sets\set1.py</StartupFile>
+    <StartupFile>Challenges\challenge5.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Challenges\Challenge4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Challenges\challenge5.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Dictionaries\dictionary1.py">
@@ -95,6 +98,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Sets\set1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sets\set2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Tuples\tuple1.py">
