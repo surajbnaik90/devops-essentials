@@ -13,7 +13,7 @@ for char in text:
 sortedlist = sorted(consonants_list)
 print(sortedlist)
 
-#Other way if doing the same thing
+#Other way of doing the same thing.
 print("-" * 100)
 sometext = "Hey I am learning Python"
 print(sometext)
