@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Dictionaries\dictionary4.py</StartupFile>
+    <StartupFile>Sets\set1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -94,6 +94,9 @@
     <Compile Include="Ranges\range2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Sets\set1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Tuples\tuple1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -111,6 +114,7 @@
     <Folder Include="Iterators\" />
     <Folder Include="Binary\" />
     <Folder Include="Dictionaries\" />
+    <Folder Include="Sets\" />
     <Folder Include="Tuples\" />
     <Folder Include="Ranges\" />
   </ItemGroup>
