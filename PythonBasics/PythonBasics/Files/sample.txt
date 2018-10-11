@@ -1,0 +1,5 @@
+Hey, I just started learning python course online. It's very easy to use. 
+Also, it's fun writing programs plus more powerful too.
+
+Till now, I learnt basic control flow statements, dictionaries and sets.
+And now I started with how to read and write files using python.
