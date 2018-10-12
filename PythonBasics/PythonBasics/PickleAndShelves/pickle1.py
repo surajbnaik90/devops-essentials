@@ -22,7 +22,7 @@ odd_numbers = list(range(1,10,2))
 
 with open("testfile.pickle","wb") as pickle_file:
     pickle.dump(tupleObject, pickle_file)
-    # or pickle.dump(tupleObject, pickle_file, protocol=pickle.DEFAULT_PROTOCOL
+    # or pickle.dump(tupleObject, pickle_file, protocol=pickle.DEFAULT_PROTOCOL)
     # or pickle.dump(tupleObject, pickle_file, protocol=pickle.HIGHEST_PROTOCOL)
     pickle.dump(even_numbers, pickle_file)
     pickle.dump(odd_numbers,pickle_file)
