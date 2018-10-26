@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>41c03c1d-5495-4d8d-8ee4-3f6316a4d661</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PickleAndShelves\pickle1.py</StartupFile>
+    <StartupFile>Modules\webBrowserModule.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -99,6 +99,12 @@
     <Compile Include="Lists\lists2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Modules\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\webBrowserModule.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PickleAndShelves\pickle1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -133,6 +139,7 @@
     <Folder Include="Binary\" />
     <Folder Include="Dictionaries\" />
     <Folder Include="Files\" />
+    <Folder Include="Modules\" />
     <Folder Include="PickleAndShelves\" />
     <Folder Include="Sets\" />
     <Folder Include="Tuples\" />
